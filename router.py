@@ -1,0 +1,18 @@
+key = 'key'
+router ='router'
+br_router='br_router'
+edge_router= 'edge_router'
+network ='net'
+isp = 'isp'
+isb_edge1 ='sub_1'
+edge1_hqr1 ='sub_7'
+edge1_hqr2 ='sub_8'
+hqr1_lan1 = 'sub_9'
+hqr2_lan2 = 'sub_9'
+isb_edge2 ='sub_2'
+edge2_br1 ='sub_3'
+edge2_br2 ='sub_4'
+br1_lan1 ='sub_5'
+br2_lan2 ='sub_6'
+
+
