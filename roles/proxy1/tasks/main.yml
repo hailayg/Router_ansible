@@ -1,0 +1,4 @@
+---
+# tasks file for roles/proxy1
+- include_tasks: configure_keepalived.yml
+- include_tasks: nginx_reload.yml

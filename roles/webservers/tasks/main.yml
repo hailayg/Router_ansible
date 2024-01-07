@@ -1,0 +1,11 @@
+---
+# tasks file for roles/webservers
+- include_tasks: ../proxy/tasks/update.yml
+- include_tasks: install_pip3.yml
+- include_tasks: install_gunicorn.yml
+- include_tasks: install_flask.yml
+- include_tasks: install_snmp.yml
+- include_tasks: configure_snmp.yml
+- include_tasks: restart_snmp.yml
+- include_tasks: service_py.yml
+- include_tasks: run_flask.yml

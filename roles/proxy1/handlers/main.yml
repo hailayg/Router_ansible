@@ -1,0 +1,7 @@
+---
+# handlers file for roles/proxy1
+handlers:
+  - name: restart keepalived
+    service:
+      name: keepalived
+      state: restarted

@@ -1,0 +1,4 @@
+---
+- name: "installing pip3"
+    apt:
+      name: python3-pip

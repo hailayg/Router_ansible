@@ -1,0 +1,3 @@
+---
+# vars file for roles/webservers
+ansible_ssh_common_args: '-F ./all/ssh_config'

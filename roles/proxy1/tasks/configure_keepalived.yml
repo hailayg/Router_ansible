@@ -1,0 +1,6 @@
+---
+- name: "Configure keepalived"
+    template:
+      src: keepalive1.j2
+      dest: /etc/keepalived/keepalived.conf
+    notify: restart keepalived

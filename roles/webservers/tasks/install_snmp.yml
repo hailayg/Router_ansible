@@ -1,0 +1,5 @@
+---
+- name: "installing snmpd"
+    apt:
+      name: snmpd
+      state: latest

@@ -1,0 +1,7 @@
+---
+- name: "copying service.py"
+    copy:
+     src: service.py
+     dest: /home/ubuntu/service.py
+     owner: ubuntu
+     mode: 0644
